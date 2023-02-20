@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.devsuperior.hrpayroll.entities.Worker;
 
 @Component // component que pode ser utilizado em outrras classes
-@FeignClient(name = "hr-worker", url = "localhost:8001", path = "/workers") // uma chamada nesse endpoint pelo feign
+@FeignClient(name = "hr-worker", path = "/workers") // uma chamada nesse endpoint pelo feign, nao definimos a porta por conta de balanceamento de carga do ribbon
 public interface WorkerFeignClient {
 	
 	@GetMapping(value = "/{id}")
