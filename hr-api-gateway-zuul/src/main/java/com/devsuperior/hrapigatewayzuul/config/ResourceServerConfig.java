@@ -19,7 +19,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	// routes restricted
 	private static final String[] PUBLIC = { "/hr-oauth/oauth/token" }; // public
 	private static final String[] OPERATOR = { "/hr-worker/**" }; // only admin and operator
-	private static final String[] ADMIN = { "/hr-payroll/**", "/hr-user/**" }; // only admin
+	private static final String[] ADMIN = { "/hr-payroll/**", "/hr-user/**", "/actuator/**", "/hr-worker/actuator/**", "/hr-oauth/actuator/**" }; // only admin
 	
 	@Override
 	public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
