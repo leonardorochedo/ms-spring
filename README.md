@@ -47,3 +47,7 @@ Este projeto é apenas uma demonstração da estrutura básica de um projeto de 
 
 ![model1](https://user-images.githubusercontent.com/62243365/229194193-0bb6abea-485b-4e50-a9f8-283e8e221370.png)
 ![model2](https://user-images.githubusercontent.com/62243365/229194196-ce72669b-a086-4e59-a2c6-b19a2accb6be.png)
+
+## Demonstação em vídeo
+
+Link: https://www.linkedin.com/feed/update/urn:li:activity:7048701557336416256/
